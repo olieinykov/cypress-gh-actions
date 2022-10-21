@@ -14,5 +14,5 @@ jobs:
         with:
           build: npm run build
           start: npm start
-          env:
-            TEST_VARIABLE_EXAMPLE: ${{ secrets.TEST_VARIABLE_EXAMPLE }}
+        env:
+          TEST_VARIABLE_EXAMPLE: ${{ secrets.TEST_VARIABLE_EXAMPLE }}
